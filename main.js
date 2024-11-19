@@ -85,48 +85,48 @@ comment */
 
 // Arrays of Objects
 
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isComplete: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isComplete: true
-    },
-    {
-        id: 3,
-        text: 'Dentist appt',
-        isComplete: false
-    },
-]
+// const todos = [
+//     {
+//         id: 1,
+//         text: 'Take out trash',
+//         isComplete: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         isComplete: true
+//     },
+//     {
+//         id: 3,
+//         text: 'Dentist appt',
+//         isComplete: false
+//     },
+// ]
 
 
 // console.log(todos[1].text);
 
 // JSON format
 
-const todoJSONconvert = [
-    [
-        {
-           "id": 1,
-           "text": "Take out trash",
-           "isComplete": true
-        },
-        {
-           "id": 2,
-           "text": "Meeting with boss",
-           "isComplete": true
-        },
-        {
-           "id": 3,
-           "text": "Dentist appt",
-           "isComplete": false
-        }
-     ]
-]
+// const todoJSONconvert = [
+//     [
+//         {
+//            "id": 1,
+//            "text": "Take out trash",
+//            "isComplete": true
+//         },
+//         {
+//            "id": 2,
+//            "text": "Meeting with boss",
+//            "isComplete": true
+//         },
+//         {
+//            "id": 3,
+//            "text": "Dentist appt",
+//            "isComplete": false
+//         }
+//      ]
+// ]
 
 // const todosJSON = JSON.stringify(todos)
 
@@ -228,16 +228,81 @@ const todoJSONconvert = [
 
 
 
-function addNums(num1, num2)    {
-    console.log(num1 + num2);
+// function addNums(num1, num2)    {
+//     console.log(num1 + num2);
     
-}
+// }
 
-addNums(5, 5);
+// addNums(5, 5);
 
-function addNums(num1, num2)    {
-    return num1 + num2;
+// function addNums(num1, num2)    {
+//     return num1 + num2;
     
-}
+// }
 
-console.log(addNums(5, 5));
+// const addNums = (num1 = 1, num2 = 1) =>   {
+//     console.log(num1 + num2);    
+// }
+
+// const addNums = (num1 = 1, num2 = 1) => num1 + num2;
+
+// const addNums = num1 => num1 + 5;
+
+
+// // console.log(addNums(5, 5));
+
+// // addNums(5, 5)
+
+// console.log(addNums(5));
+
+//  Constructor function
+
+// function Person(firstName, lastName, dob)   {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//     this.getBirthYear = function()  {
+//         return this.dob.getFullYear();
+//     }
+//     // this.getFullName= function()    {
+//     //     return `${this.firstName} ${this.lastName}`
+//     // }
+// }
+
+// Person.prototype.getBirthYear = function()  {
+//     return this.dob.getFullYear();
+// }
+
+// Person.prototype.getFullName = function () {
+//     return `${this.firstName} ${this.lastName}`
+// }
+
+// Class
+// class Person {
+//     constructor(firstName, lastName, dob)    {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.dob = new Date(dob);
+//     }
+//     getBirthYear()  {
+//         return this.dob.getFullYear();
+//     }
+
+//     getFullName() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// }
+
+// // Instantiate object
+// const person1 = new Person('John', 'Doe', '4-12-2002');
+// const person2 = new Person('Mary', 'Smith', '3-12-2022');
+
+
+
+// // console.log(person2.dob.);
+
+// // console.log(person1.getBirthYear());
+// // console.log(person1.getFullName());
+// console.log(person2.getFullName());
+
+// console.log(person1);
